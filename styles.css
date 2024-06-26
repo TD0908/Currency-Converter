@@ -1,29 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content:center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
     margin: 0;
-    background-color:rgba(0, 0, 0, 0.742);
+    background: linear-gradient(to right, rgba(0, 255, 200, 0.538), rgba(255, 255, 255, 0.637)), 
+                url('360_F_355206259_S6Jnv1soMYb3pF3snNsXttKOTCHbcBDu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .converter {
-    background: #212416;
+    background: #4a4b44;
+    box-sizing: border-box;
     padding: 20px;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(246, 255, 0, 0.96);
-    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    width:350px;
     text-align: center;
 }
 
 h1 {
     font-weight: 800;
-    font-family: "Poppins", sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-style: italic;
-    margin-bottom: 56px;
-    color: rgb(255, 247, 0);
+    font-size: 50px;
+    margin-bottom: 75px;
+    color: rgb(0, 247, 255);
 
+}
+label, Amount {
+    font-size: 25px;
 }
 
 .form-group {
@@ -33,18 +42,34 @@ h1 {
 label {
     display : block;
     margin-bottom: 5px;
-    background-color: #212416;
-    color:  rgb(246, 255, 0);
+    background-color: #76796b;
+    color:  rgb(0, 229, 255);
     font-family: "Poppins", sans-serif;
    font-weight: 500;
-   font-style: normal;
+   font-style: italic;
 }
 
 input, select {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    font-size: 18px; /* Increase font size */
 }
 .output {
-    color: rgb(255, 255, 255);
+    color: rgba(0, 255, 251, 0.941);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+button {
+    border-radius: 300px;
+    padding: 15px 30px; /* Increase padding for larger size */
+    font-size: 20px; /* Increase font size */
+}
+button:hover {
+    background-color: #04423d78; /* Change to a darker shade */
+    color: #ffffff; /* Change text color */
+    cursor: pointer; /* Change cursor to pointer */
+    box-shadow: 0 0 20px rgb(0, 238, 255); /* Add a glow effect */
 }
