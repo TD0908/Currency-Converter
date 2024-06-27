@@ -86,3 +86,6 @@ button:hover {
     box-shadow: 0 0 35px rgb(0, 251, 255); /* Add a glow effect */
     font-style: italic;
 }
+button:active {
+    transform: scale(0.95);
+}
