@@ -10,34 +10,34 @@ document.getElementById('convert-button').addEventListener('click', function() {
 
     const conversionRates = {
         'USD': {
-            'EUR': 0.92,
-            'GBP': 0.78,
-            'INR': 83.20,
-            'PKR': 278.06
+            'EUR': 0.8796,
+            'GBP': 0.7585,
+            'INR': 85.62,
+            'PKR': 280.35
         },
         'EUR': {
-            'USD': 1.09,
-            'GBP': 0.85,
-            'INR': 90.40,
-            'PKR': 302.43
+            'USD': 1.1355,
+            'GBP': 0.85618,
+            'INR': 97.2595,
+            'PKR': 319.853
         },
         'GBP': {
-            'USD': 1.28,
-            'EUR': 1.17,
-            'INR': 106.32,
-            'PKR': 355.37
+            'USD': 1.3214,
+            'EUR': 1.1643,
+            'INR': 114.74,
+            'PKR': 372.50
         },
         'INR': {
-            'USD': 0.012,
-            'EUR': 0.011,
-            'GBP': 0.0094,
-            'PKR': 3.34
+            'USD': 0.0117,
+            'EUR': 0.0103,
+            'GBP': 0.00885,
+            'PKR': 3.2735
         },
         'PKR' : {
-            'USD': 0.0036,
-            'EUR': 0.0033,
-            'GBP': 0.0028,
-            'INR': 0.30
+            'USD': 0.00356,
+            'EUR': 0.00313,
+            'GBP': 0.00268,
+            'INR': 0.3055
         }
         
     };
